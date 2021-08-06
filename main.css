@@ -1,28 +1,13 @@
 body {
 background-color: #e5e5e5;
+font: 12pt Helvetica, sans-serif;
 }
 
-
-.bgImgContainer {
-background-image: url('./pictures/NagatoroPhone.png');
-background-size: contain;
-resize: both;
-width: 360px;
-height: 640px;
-background-repeat: no-repeat;
-position: relative;
+#wrapper {
 display: flex;
-align-items: stretch;
 }
 
-.textOnImg {
-    position: relative;
-    font-size: 25px;
-    word-wrap: normal;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    left:0;
-    padding: 140px 20px 20px 0px;
-    border-radius: 0px 0px 3px 3px;
+.icons {
+display: flex;
+flex-direction: column bv;
+}
