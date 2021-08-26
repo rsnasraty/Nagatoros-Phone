@@ -1,13 +1,21 @@
 body {
 background-color: #e5e5e5;
 font: 12pt Helvetica, sans-serif;
+list-style-type: none;
 }
 
 #wrapper {
 display: flex;
+border-radius: .5px;
+border-style: groove;
+flex-direction: row;
 }
 
 .icons {
 display: flex;
-flex-direction: column bv;
+flex-direction: column;
+}
+
+.phone {
+border-radius: .5px;
 }
