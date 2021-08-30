@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <link rel="shortcut icon" type="image/x-icon" href="/pictures/favicon.ico">
     <title>Vanilla JS</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="main.css">
 
     <script type="text/javascript" src="nav.js"></script>
     <script type="text/javascript" src="chat.js"></script>
@@ -15,18 +16,19 @@
 </head>
 
 <body>
-    <div id="wrapper">
-    <div class="icons">
-    <a href="/pages/chat.js"><button>Messages</button></a>
-    <a href="/pages/friends.js"><button>Friends</button></a>
-    <a href="/pages/music.js"><button>Music</button></a>
-  
-
-    </div>
-    </div>
-
-
+    <header>
+        <div id="wrapper">
+            <ul class="icons">
+                <li><a href="/pages/chat.js"><button class="phone">Messages</button></a></li>
+                <li><a href="/pages/friends.js"><button class="phone">Friends</button></a></li>
+                <li><a href="/pages/music.js"><button class="phone">Music</button></a></li>
+            </ul>
+            <ul class="action">
+        </div>
         <script type="text/javascript" src="login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </header>
 </body>
 
 </html>
