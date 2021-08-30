@@ -14,6 +14,7 @@ flex-direction: row;
 .icons {
 display: flex;
 flex-direction: column;
+
 }
 
 .phone {
