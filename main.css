@@ -6,7 +6,7 @@ list-style-type: none;
 
 #wrapper {
 display: flex;
-border-radius: .5px;
+/* border-radius: .5px; */
 border-style: groove;
 flex-direction: row;
 }
@@ -17,6 +17,5 @@ flex-direction: column;
 
 }
 
-.phone {
-border-radius: .5px;
-}
+/* .phone {
+} */
